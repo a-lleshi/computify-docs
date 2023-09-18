@@ -1,17 +1,17 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "$schema": "https://computify.cloud/schema.json",
+  "name": "Computify Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#14b8a6",
+    "light": "#5eead4",
+    "dark": "#14b8a6",
     "background": {
-      "dark": "#090014"
+      "dark": "#1e293b"
     },
     "anchors": {
       "from": "#FF7F57",
@@ -21,7 +21,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@computify.cloud"
     }
   ],
   "topbarCtaButton": {
@@ -75,8 +75,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/computify",
+    "github": "https://github.com/computify",
+    "linkedin": "https://www.linkedin.com/company/computify"
   }
 }
