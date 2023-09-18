@@ -14,24 +14,24 @@
       "dark": "#1e293b"
     },
     "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "from": "#5eead4",
+      "to": "#14b8a6"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Support Email",
       "url": "mailto:support@computify.cloud"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Support Form",
+    "url": "https://computify.cloud/support"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Dashboard",
+      "url": "soon"
     }
   ],
   "anchors": [
@@ -61,8 +61,8 @@
       "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "group": "Dashboard",
+      "pages": ["soon/coming-soon"]
     },
     {
       "group": "Endpoint Examples",
