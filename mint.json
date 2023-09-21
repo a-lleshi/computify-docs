@@ -11,7 +11,7 @@
     "light": "#5eead4",
     "dark": "#14b8a6",
     "background": {
-      "dark": "#1e293b"
+      "dark": "#1c1c1c"
     },
     "anchors": {
       "from": "#5eead4",
@@ -48,7 +48,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://computify.cloud/blog"
     }
   ],
   "navigation": [
