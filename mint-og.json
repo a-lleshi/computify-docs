@@ -54,15 +54,24 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction"]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
-      "pages": ["soon/coming-soon"]
+      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
       "group": "Dashboard",
       "pages": ["soon/coming-soon"]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/update",
+        "api-reference/endpoint/delete"
+      ]
     }
   ],
   "footerSocials": {
