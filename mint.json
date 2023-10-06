@@ -58,7 +58,7 @@
     },
     {
       "group": "Essentials",
-      "pages": ["soon/coming-soon"]
+      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
       "group": "Dashboard",
