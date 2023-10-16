@@ -52,8 +52,8 @@
       "pages": ["introduction"]
     },
     {
-      "group": "Dashboard",
-      "pages": ["soon/coming-soon"]
+      "group": "Desktop",
+      "pages": ["desktop/hosted-desktop"]
     }
   ],
   "footerSocials": {
