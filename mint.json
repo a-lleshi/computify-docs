@@ -36,6 +36,11 @@
   ],
   "anchors": [
     {
+      "name": "Home Page",
+      "icon": "house",
+      "url": "https://computify.cloud"
+    },
+    {
       "name": "Documentation",
       "icon": "book-open-cover",
       "url": "https://docs.computify.cloud"
@@ -53,7 +58,19 @@
     },
     {
       "group": "Desktop",
-      "pages": ["desktop/hosted-desktop"]
+      "pages": ["desktop/hosted-desktop", "desktop/2fa"]
+    },
+    {
+      "group": "Windows",
+      "pages": ["desktop/windows/remote-desktop-connection"]
+    },
+    {
+      "group": "MacOS",
+      "pages": ["desktop/macos/remote-desktop-connection"]
+    },
+    {
+      "group": "Linux",
+      "pages": ["desktop/linux/remote-desktop-connection"]
     }
   ],
   "footerSocials": {
