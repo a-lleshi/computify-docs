@@ -1,22 +1,47 @@
 ---
 title: "2 Factor Authentication"
-description: "Computify is working hard to bring the best experience to you. We will be launching soon. Stay tuned!"
+description: "2 Factor Authentication is an important security feature that adds an extra layer of security to your account. This guide will help you to enable 2FA on your account." 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et eros iaculis tortor dapibus cursus. Curabitur quis sapien nec tortor dictum gravida.
+To enable 2FA on your server this can be done by our support team. Otherwise you can enable it yourself by following the steps below which will guide you through the process.
 
-```bash
-'Authorization': 'Token <team_token>'
-```
+We will be putting together a guide using [Due Security](https://duo.com/). Duo Security is a 2FA provider that is free for personal use with business plans and is very easy to setup.
 
-## Soon
+## Step 1 - Setup Duo Security
 
-Nullam convallis mauris at nunc consectetur, ac imperdiet leo rutrum. Maecenas cursus purus a pellentesque blandit. Pellentesque vitae lacinia libero, non mollis metus.
+<Steps>
+    <Step title="Step 1 - Sign up for Duo Security">
+        - To get started you will need to sign up for a Duo Security account. 
+        - You can do this by visiting [https://signup.duo.com/](https://signup.duo.com/).
+    </Step>
+    <Step title="Step 2 - Log into your account">
+        - Once you have signed up for an account you will need to access your [Duo Admin Panel](https://admin.duosecurity.com/login).
+    </Step>
+    <Step title="Step 3 - Add a new application">
+        - Click `Protect an Application` and locate the entry for `Microsoft RDP` in the applications list. 
+        - Click `Protect` to the far-right to configure the application and get your `integration key`, `secret key`, and `API hostname`. 
+        - You'll need this information to complete your setup. 
+        - See [Protecting Applications](https://duo.com/docs/protecting-applications) for more information about protecting applications in Duo and additional application options.
+    </Step>
+    <Step title="Step 4 - Configure Duo Security">
+        - We recommend setting the [New User Policy](https://duo.com/docs/policy#new-user-policy) for your Microsoft RDP application to `Deny Access`, because no unenrolled user may complete Duo enrollment via this application.
+    </Step>
+    <Step title="Step 5 - Offline Access">
+        - If you'd like to enable [offline access](https://duo.com/docs/rdp#offline-access) with Duo MFA you can do that now in the "Offline Access Settings" section of the Duo application page, or return to the Admin Panel later to configure offline access after first verifying logon success with two-factor authentication.
+    </Step>
+    <Step title="Step 6 - Download the Duo Authentication for Windows Logon installer package">
+        - Download the Duo Authentication for Windows Logon [installer package](https://dl.duosecurity.com/duo-win-login-latest.exe). 
+        - View checksums for Duo downloads [here](https://duo.com/docs/checksums#duo-windows-logon).
+    </Step>
+</Steps>
 
-Nam id ullamcorper urna, at rutrum enim. [Maecenas vulputate](/introduction) vehicula libero, vitae sodales augue pretium nec. Quisque a magna tempor, semper risus vel, fermentum nunc. Pellentesque fermentum interdum ex, eu convallis massa blandit sed. Aliquam bibendum ipsum vel laoreet auctor.
 
-### Soon
+<Warning>Treat your secret key like a password
+The security of your Duo application is tied to the security of your secret key (skey). Secure it as you would any sensitive credential. Don't share it with unauthorized individuals or email it to anyone under any circumstances!</Warning>
 
-Etiam lobortis ut odio ut fermentum. Nunc odio velit, sollicitudin at consectetur id, tristique eget turpis. Aliquam at risus vitae dolor sodales venenatis. In hac habitasse platea dictumst.
+## Step 2 - Remembered Devices for Windows Logon
 
-Aenean consequat diam eget mollis fermentum. [Quisque eu malesuada](/introduction) felis, non dignissim libero.
+
+## Step 3 - Run the Installer
+
+## Step 4 - Test Your Setup
